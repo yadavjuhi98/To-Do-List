@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="Wrapper">
+        <div class="ToDoListContainer">
+            <h2>To Do App <span>Just Do It</span><img src="images/greentick.png" alt=""></h2>
+            <form action="">
+                <label for="">Write Your Tasks</label>
+                <input id="Input_Task" type="text" placeholder="Enter Your Tasks">
+                <button type="button" onclick="AddTaskBtn()">Add <i class="ri-add-line"></i></button>
+            </form>
+            <ul id="List_Container">
+                <!-- <li class="Checked">Task 1</li>
+                <li>Task 1</li>
+                <li>Task 1</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
